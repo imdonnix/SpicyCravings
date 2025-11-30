@@ -18,7 +18,6 @@ const Hero: React.FC = () => {
         <p className="hero-sub">Add spice to your meals — order now!</p>
         <button className="hero-cta" onClick={() => scrollToSection('order')}>Order Now</button>
         <div className="hero-jars">
-          <img src={jarImg} alt="Spicy Cravings Jar" className="hero-jar-image" />
           <img src={allImg} alt="All Variants" className="hero-jar-image" />
         </div>
       </div>

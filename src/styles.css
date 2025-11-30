@@ -243,6 +243,76 @@ body {
   letter-spacing: 1px;
 }
 
+/* PRODUCT DESCRIPTIONS SECTION */
+.product-descriptions-section {
+  background: var(--light-bg);
+  padding: 60px 20px;
+}
+
+.product-descriptions-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.descriptions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description-card h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.product-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  color: #333;
+}
+
+.description-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #666;
+  margin: 0;
+}
+
+/* FLAVORS SECTION */
+.flavors-section {
+  padding: 40px 20px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flavors-image {
+  max-width: 100%;
+  height: auto;
+  max-width: 1200px;
+  display: block;
+  border-radius: 8px;
+}
+
 /* WHY CHOOSE US SECTION */
 .why-choose-section {
   background: white;

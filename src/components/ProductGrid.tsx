@@ -7,6 +7,7 @@ import chiliImg2 from '../assets/Pictures/chiligarlic2.png'
 import whyPeopleLoveUs from '../assets/Pictures/whypeopleloveus.png'
 import orderImg from '../assets/Pictures/ordernow.png'
 import howToUse from '../assets/Pictures/howtouseit.png'
+import flavorsImg from '../assets/Pictures/flavors.JPG'
 
 const ProductGrid: React.FC = () => {
   return (
@@ -57,7 +58,39 @@ const ProductGrid: React.FC = () => {
         </div>
       </section>
 
-      {/* WHY CHOOSE US SECTION */}
+      {/* PRODUCT DESCRIPTIONS SECTION */}
+      <section className="product-descriptions-section">
+        <h2>PRODUCT DESCRIPTIONS</h2>
+        <div className="descriptions-grid">
+          <div className="description-card">
+            <h3>A. 120ML – BEST SELLER</h3>
+            <p className="product-title">Spicy Cravings - Chili Garlic Oil 120ml</p>
+            <p className="description-text">
+              Perfect for personal use and everyday meals. Made with garlic, siling demonyo, and special seasonings, this size is great for trying out our flavor and adding a spicy kick to your dishes.
+            </p>
+          </div>
+          <div className="description-card">
+            <h3>B. 200ML – FAMILY SIZE</h3>
+            <p className="product-title">Spicy Cravings Chili - Garlic Oil 200ml</p>
+            <p className="description-text">
+              Ideal for families who love spicy and savory flavors. More garlic, more chili, more enjoyment! Best for silog meals, noodles, fried rice, and everyday cooking.
+            </p>
+          </div>
+          <div className="description-card">
+            <h3>C. 250ML – VALUE SIZE</h3>
+            <p className="product-title">Spicy Cravings - Chili Garlic Oil 250ml</p>
+            <p className="description-text">
+              Our biggest jar for heavy users and food business owners. Whether for restaurants, food stalls, or spicy lovers, this size delivers the best value and long-lasting flavor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FLAVORS SECTION */}
+      <section className="flavors-section">
+        <img src={flavorsImg} alt="Flavor Options" className="flavors-image" />
+      </section>
+
       <section className="why-choose-section">
         <div className="why-choose-container">
           <div className="why-choose-image">
